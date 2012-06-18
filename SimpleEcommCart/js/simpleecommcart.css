@@ -1,0 +1,98 @@
+#simpleecommcart div.panel_wrapper{
+	display:block;
+	overflow:visible;
+	width:99%;
+	padding:0;
+	/*background:white url(../images/simpleecommcart_logo_sm.gif) no-repeat right 1px;*/
+}
+#simpleecommcart div.panel_wrapper div.current{
+	display:block;
+	height: auto;
+	overflow:visible;
+	width:100%;
+	padding:15px 0 0 10px;
+}
+#simpleecommcart div.panel_wrapper div.current table {
+	font-size:13px;
+}
+#simpleecommcart td.phplabel{
+	font-size:12px;
+  text-align: right;
+}
+#simpleecommcart td.phpinput{
+	padding-left:10px;
+}
+#simpleecommcart td.phpinput select {
+	font-size:12px;
+	width:210px;
+}
+
+#simpleecommcart div.mceActionPanel{
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 30px;
+}
+
+#simpleecommcart #cancel,
+#simpleecommcart #insert{
+	width:120px!important;
+}
+#simpleecommcart .tabs {
+	width:99.3%!important;
+}
+
+#buttonPreview {
+  text-align:center;
+}
+
+#priceLabel{
+  font-size:1.2em;
+  font-weight:bold;
+}
+
+.shortcode{
+  cursor:pointer;
+  float:left;
+}
+
+.shortcode:hover{
+  background-color:#ddd;
+}
+
+/* SimpleEcommCart Button CSS */
+.SimpleEcommCartButtonPrimary, 
+.SimpleEcommCartButtonSecondary {
+  font-family: helvetica,arial;
+  font-size: 12px !important;
+  font-weight: normal;
+  display: inline-block;
+  padding: 0px 1.5em;
+  margin: 0px 0px 5px 5px !important;
+  width: auto !important;
+  border: 1px solid #4e4e4e !important;
+  height: 24px !important;
+  line-height: 1.2em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: visible;
+  background-repeat: repeat-x;
+  background-color: #a0a0a4;
+  color: #FFFFFF !important;
+}
+
+.SimpleEcommCartButtonSecondary {
+  background-color: #2C3538;
+}
+
+a.SimpleEcommCartButtonPrimary, 
+a.SimpleEcommCartButtonSecondary {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 1.5em;
+  line-height: 2em;
+  color: #FFFFFF;
+  background-color: #a0a0a4;
+}
