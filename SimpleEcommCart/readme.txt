@@ -1,16 +1,33 @@
-=== WordPress simple-e-commerce-shopping-cart - Sell products through Paypal ===
+=== WordPress Simple Ecommerce Shopping Cart Plugin- Sell products through Paypal ===
 Contributors: Niaz Showket
-Tags: Paypal shopping cart, Digital shop, shopping cart, checkout system, sell digital physical products, Integrated paypal shop
+Tags: Wordpress shopping cart, wordpress shopping cart plugin, shopping cart, cart, checkout, shop, store, wordpress ecommerce, ecommerce plugin, e-commerce plugin, digital downloads, paypal, paypal shopping cart, paypal cart, online shop, online store
+
 Requires at least: 1.0
-Tested up to: 1.0
-Stable tag: 1.0
+Tested up to: 3.4
+Stable tag: 3.4
 
 Simple E-Commerce Shopping Cart Plugin to sell digital/physical products from your wordpress site through PayPal.
 
 == Description ==
 
-simple-e-commerce-shopping-cart can be used in your wordpress (blog) post or page to add an 'Add to cart' button.
-Once the items are added to the cart, you can add or delete the items from the cart and receive payments using paypal account.
+Turn your WordPress blog into a full blown ecommerce site and start selling online! Simple Ecommerce Shopping Cart plugin lets you sell tangible products, services, and digital downloads securely from your own wordpress site. The plugin is packed with features to make selling easier on the internet and allows Paypal payments. 
+
+With Simple Ecommerce Shopping Cart your can add products anywhere on any post or page without changing your existing theme and design. It also allows you to add/display the shopping cart on any post or page or sidebar. The Plugin also creates a store page if you don’t want to customise anything and have your products displayed on a “Store” page created by the plugin.
+
+	Sell Digital downloads
+	Sell Physical products
+	Easy to setup product variations
+	Supports multiple currency
+	Accept PayPal
+	Simple checkout process
+	Conditional coupons to offer discounts
+	Works with any WordPress theme
+	Create your own Store page§
+	Place a custom “Add to Cart” button on any Post or Page.
+	Easy “Landing Page” setup to redirect customer to a specific page after successful payment
+	Customizable emails with email tags
+	Includes Cart widget for sidebars
+
 
 
 == Usage ==
@@ -35,6 +52,13 @@ First deactivate the SimpleEcommCart plugin if you are using it
 3. Can the shopping cart be added to any posts or pages ? Yes.
 4. Does this plugin has multiple currency support? Yes.
 5. Is the 'Add to Cart' button customizable? Yes.
+6. Can the shopping cart be added to any Post, Page or Sidebar? Yes.
+
+7. Does this plugin support multiple currencies? Yes.
+
+8. Is the ‘Add to Cart’ button customizable? Yes.
+
+9. Will this plugin work with my existing theme? Yes (but may require some styling to make it match nicely.)
 
 
 
