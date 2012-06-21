@@ -56,11 +56,8 @@ First deactivate the SimpleEcommCart plugin if you are using it
 2. Does this plugin have shopping cart functionality? Yes.
 3. Can the shopping cart be added to any posts or pages ? Yes.
 4. Does this plugin has multiple currency support? Yes.
-5. Is the 'Add to Cart' button customizable? Yes.
+5. Is the "Add to Cart" button customizable? Yes.
 6. Can the shopping cart be added to any Post, Page or Sidebar? Yes.
-
 7. Does this plugin support multiple currencies? Yes.
-
-8. Is the ‘Add to Cart’ button customizable? Yes.
-
+8. Is the "Add to Cart" button customizable? Yes.
 9. Will this plugin work with my existing theme? Yes (but may require some styling to make it match nicely.)
