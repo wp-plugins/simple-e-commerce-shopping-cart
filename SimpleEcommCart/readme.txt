@@ -48,7 +48,7 @@ First deactivate the SimpleEcommCart plugin if you are using it
 1. Unzip the downloaded zip file which will be called simple-e-commerce-shopping-cart.
 2. Get inside the simple-e-commerce-shopping-cart folder and you will see a folder called SimpleEcommCart.
    Create a zip file for the SimpleEcommCart ( call it SimpleEcommCart.zip ).
-   You can upload this folder into your '/wp-content/plugins/' directory using the installed plugin interface.
+   You can upload this(SimpleEcommCart.zip) zip file into your '/wp-content/plugins/' directory using the installed plugin interface.
    
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to Settings menu and configure General settings, Email and currency etc.
