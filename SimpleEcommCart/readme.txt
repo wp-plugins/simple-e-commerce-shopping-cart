@@ -10,11 +10,14 @@ Simple E-Commerce Shopping Cart Plugin to sell digital/physical products from yo
 
 == Description ==
 
-Turn your WordPress blog into a full blown ecommerce site and start selling online! Simple Ecommerce Shopping Cart plugin lets you sell tangible products, services, and digital downloads securely from your own wordpress site. The plugin is packed with features to make selling easier on the internet and allows Paypal payments. 
+Turn your WordPress blog into a full blown ecommerce site and start selling online! 
+Simple Ecommerce Shopping Cart plugin lets you sell tangible products, services, and digital downloads securely from your own wordpress site. The plugin is packed with features to make selling easier on the internet and allows Paypal payments. 
 
-With Simple Ecommerce Shopping Cart your can add products anywhere on any post or page without changing your existing theme and design. It also allows you to add/display the shopping cart on any post or page or sidebar. The Plugin also creates a store page if you don’t want to customise anything and have your products displayed on a “Store” page created by the plugin.
-
-	Sell Digital downloads
+With Simple Ecommerce Shopping Cart your can add products anywhere on any post or page without changing your existing theme and design.
+It also allows you to add/display the shopping cart on any post or page or sidebar. 
+The Plugin also creates a store page if you dont want to customise anything and have your products displayed on a "Store" 
+page created by the plugin.
+        Sell Digital downloads
 	Sell Physical products
 	Easy to setup product variations
 	Supports multiple currency
