@@ -17,21 +17,20 @@ With Simple Ecommerce Shopping Cart your can add products anywhere on any post o
 It also allows you to add/display the shopping cart on any post or page or sidebar. 
 The Plugin also creates a store page if you dont want to customise anything and have your products displayed on a "Store" 
 page created by the plugin.
-        Sell Digital downloads
-	Sell Physical products
-	Easy to setup product variations
-	Supports multiple currency
-	Accept PayPal
-	Simple checkout process
-	Conditional coupons to offer discounts
-	Works with any WordPress theme
-	Create your own Store page§
-	Place a custom “Add to Cart” button on any Post or Page.
-	Easy “Landing Page” setup to redirect customer to a specific page after successful payment
-	Customizable emails with email tags
-	Includes Cart widget for sidebars
 
-
+Sell Digital downloads
+Sell Physical products
+Easy to setup product variations
+Supports multiple currency
+Accept PayPal
+Simple checkout process
+Conditional coupons to offer discounts
+Works with any WordPress theme
+Create your own Store page
+Place a custom "Add to Cart" button on any Post or Page.
+Easy "Landing Page" setup to redirect customer to a specific page after successful payment
+Customizable emails with email tags
+Includes Cart widget for sidebars
 
 == Usage ==
 
@@ -62,6 +61,3 @@ First deactivate the SimpleEcommCart plugin if you are using it
 8. Is the ‘Add to Cart’ button customizable? Yes.
 
 9. Will this plugin work with my existing theme? Yes (but may require some styling to make it match nicely.)
-
-
-
