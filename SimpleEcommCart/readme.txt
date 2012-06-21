@@ -18,19 +18,22 @@ It also allows you to add/display the shopping cart on any post or page or sideb
 The Plugin also creates a store page if you dont want to customise anything and have your products displayed on a "Store" 
 page created by the plugin.
 
-Sell Digital downloads
-Sell Physical products
-Easy to setup product variations
-Supports multiple currency
-Accept PayPal
-Simple checkout process
-Conditional coupons to offer discounts
-Works with any WordPress theme
-Create your own Store page
-Place a custom "Add to Cart" button on any Post or Page.
-Easy "Landing Page" setup to redirect customer to a specific page after successful payment
-Customizable emails with email tags
-Includes Cart widget for sidebars
+Highlighting features: 
+
+1. Sell Digital downloads.
+2. Sell Physical products.
+3. Easy to setup product variations.
+4. Supports multiple currency.
+5. Accept PayPal.
+6. Simple checkout process.
+7. Conditional coupons to offer discounts.
+8. Works with any WordPress theme.
+9. Create your own Store page.
+10. Place a custom "Add to Cart" button on any Post or Page.
+11. Easy "Landing Page" setup to redirect customer to a specific page after successful payment.
+12. Customizable emails with email tags.
+13. Includes Cart widget for sidebars.
+
 
 == Usage ==
 
