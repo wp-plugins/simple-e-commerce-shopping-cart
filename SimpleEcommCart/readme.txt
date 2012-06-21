@@ -18,7 +18,7 @@ It also allows you to add/display the shopping cart on any post or page or sideb
 The Plugin also creates a store page if you dont want to customise anything and have your products displayed on a "Store" 
 page created by the plugin.
 
-Highlighting features: 
+Highlighted Features: 
 
 1. Sell Digital downloads.
 2. Sell Physical products.
