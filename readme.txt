@@ -45,7 +45,7 @@ Highlighted Features:
 
 First deactivate the SimpleEcommCart plugin if you are using it
 
-1. Unzip and Upload the folder SimpleEcommCart.zip to the '/wp-content/plugins/' directory
+1. Unzip and Upload the folder simple-e-commerce-shopping-cart.zip to the '/wp-content/plugins/' directory using the wordpress plugin menu.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to Settings menu and configure General settings, Email and currency etc.
 4. Go to the Add/Edit Products page and add your product details to the database.
