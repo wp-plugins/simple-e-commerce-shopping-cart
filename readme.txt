@@ -73,7 +73,7 @@ PayPal Standard
 <strong>100% CUSTOMIZABLE </strong>
 <ul>
 	<li>Place products on any post or page.</li>
-	<li>Display the “Shopping Cart” on any post or page and sidebars.</li>
+	<li>Display the 'Shopping Cart' on any post or page and sidebars.</li>
 	<li>Customizable Email.</li>
 	<li>Custom button option for individual products.</li>
 </ul>
