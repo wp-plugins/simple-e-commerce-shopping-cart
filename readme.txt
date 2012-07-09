@@ -10,29 +10,85 @@ Simple E-Commerce Shopping Cart Plugin to sell digital/physical products from yo
 
 == Description ==
 
-Turn your WordPress blog into a full blown ecommerce site and start selling online! 
-Simple Ecommerce Shopping Cart plugin lets you sell tangible products, services, and digital downloads securely from your own wordpress site. The plugin is packed with features to make selling easier on the internet and allows Paypal payments. 
+Turn your WordPress blog into a full blown ecommerce site and start selling online!
+Simple Ecommerce Shopping Cart plugin lets you sell tangible products, services, and digital downloads securely from your own wordpress site. The plugin is packed with features to make selling easier on the internet and allows Paypal payments.
+ 
+<strong>FEATURES</strong>
+ 
+<strong>SELL DIGITAL DOWNLOADS/PRODUCTS</strong>
+ 
+No matter what type of digital downloads you have, you can sell and deliver them securely to your customers with the plugin. Sell your ebooks (PDF), audio books, music (MP3, wav, MP4), photos, digital arts easily from any wordpress site.
+ 
+<strong>SECURITY OF DIGITAL DOWNLOADS</strong>
+ 
+The plugin instantly deliver the digital product to the customers by sending them an encrypted download link by email so the original location of the products never gets revealed. Download limit can be configured so the link automatically expires after the “x” numbers of downloads.
+ 
+<strong>SELL TANGIBLE AND PHYSICAL PRODUCTS</strong>
+ 
+It’s easy to configure tangible or physical goods. The plugin allows you to configure product variations with options (e.g. size, color, style etc) with additional price. Plugin offers product categories to display products in order and easier for your customers to find them. 
+ 
+<strong>SELL SERVICES</strong>
+ 
+Like Digital and Physical products you can also sell Services. With product variations you can create levels of services with individual price. (e.g. Under “Blog Setup Services” you can charge “Basic Blog Setup” for $99.95 and “Premium Blog Setup” for $105.00).
+ 
+<strong>CUSTOM FIELDS FOR PRODUCTS</strong>
+ 
+This feature allows you to collect instructions from customers for individual product.
 
-With Simple Ecommerce Shopping Cart your can add products anywhere on any post or page without changing your existing theme and design.
-It also allows you to add/display the shopping cart on any post or page or sidebar. 
-The Plugin also creates a store page if you dont want to customise anything and have your products displayed on a "Store" 
-page created by the plugin.
+ 
+<strong>TAX SHIPPING</strong>
+ 
+<strong>Flat tax rate</strong> – Apply a flat tax rate to the selected or all products.
+ 
+<strong>Flat shipping rate</strong> – Apply product specific shipping rates for individual products. You can also apply a flat shipping rate regardless the number of items in the Cart or a flat shipping rate for each individual item in the Cart.
+ 
+<strong>DISCOUNTS AND COUPON CODE</strong>
+ 
+Create your own Coupon Codes.
+Apply discounts on selected products.
+Apply discount based on item quantity.
+Apply discount based on total cart amount.
 
-Highlighted Features: 
+<strong>INTERNATIONAL SUPPORT</strong>
+<ul>
+	<li>Support multiple currencies</li>
+	<li>Target specific countries or all countries</li>
+</ul>
+&nbsp;
 
-1. Sell Digital downloads.
-2. Sell Physical products.
-3. Easy to setup product variations.
-4. Supports multiple currency.
-5. Accept PayPal.
-6. Simple checkout process.
-7. Conditional coupons to offer discounts.
-8. Works with any WordPress theme.
-9. Create your own Store page.
-10. Place a custom "Add to Cart" button on any Post or Page.
-11. Easy "Landing Page" setup to redirect customer to a specific page after successful payment.
-12. Customizable emails with email tags.
-13. Includes Cart widget for sidebars.
+<strong>PAYMENT OPTIONS</strong>
+
+PayPal Standard
+
+<strong> </strong>
+
+<strong>CHECKOUT</strong>
+<ul>
+	<li>Simple checkout process.</li>
+	<li>Checkout without account.</li>
+	<li>Tax and shipping cost on checkout page.</li>
+	<li>Customizable checkout page.</li>
+</ul>
+&nbsp;
+
+<strong>100% CUSTOMIZABLE </strong>
+<ul>
+	<li>Place products on any post or page.</li>
+	<li>Display the “Shopping Cart” on any post or page and sidebars.</li>
+	<li>Customizable Email.</li>
+	<li>Custom button option for individual products.</li>
+</ul>
+&nbsp;
+
+<strong>Testing and Debugging </strong>
+
+Test with PayPal Sandbox before you go Live.
+
+<strong>NOTE</strong>
+
+There are several high quality WordPress shopping cart plugins available, but when it has too many features it becomes difficult to use. We have developed 'Simple Ecommerce Shopping Cart Plugin' that has all the essential functions without making it complicated to use.
+
+&nbsp;
 
 
 == Usage ==
