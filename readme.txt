@@ -21,15 +21,16 @@ No matter what type of digital downloads you have, you can sell and deliver them
  
 <strong>SECURITY OF DIGITAL DOWNLOADS</strong>
  
-The plugin instantly deliver the digital product to the customers by sending them an encrypted download link by email so the original location of the products never gets revealed. Download limit can be configured so the link automatically expires after the “x” numbers of downloads.
+The plugin instantly deliver the digital product to the customers by sending them an encrypted download link by email so the original location of the products never gets revealed. Download limit can be configured so the link automatically expires after the 'x' numbers of downloads.
  
 <strong>SELL TANGIBLE AND PHYSICAL PRODUCTS</strong>
  
-It’s easy to configure tangible or physical goods. The plugin allows you to configure product variations with options (e.g. size, color, style etc) with additional price. Plugin offers product categories to display products in order and easier for your customers to find them. 
+It's easy to configure tangible or physical goods. The plugin allows you to configure product variations with options (e.g. size, color, style etc) with additional price. Plugin offers product categories to display products in order and easier for your customers to find them. 
  
 <strong>SELL SERVICES</strong>
  
-Like Digital and Physical products you can also sell Services. With product variations you can create levels of services with individual price. (e.g. Under “Blog Setup Services” you can charge “Basic Blog Setup” for $99.95 and “Premium Blog Setup” for $105.00).
+Like Digital and Physical products you can also sell Services. With product variations you can create levels of services with individual price. 
+(e.g. Under 'Blog Setup Services' you can charge 'Basic Blog Setup' for $99.95 and 'Premium Blog Setup' for $105.00).
  
 <strong>CUSTOM FIELDS FOR PRODUCTS</strong>
  
@@ -38,9 +39,9 @@ This feature allows you to collect instructions from customers for individual pr
  
 <strong>TAX SHIPPING</strong>
  
-<strong>Flat tax rate</strong> – Apply a flat tax rate to the selected or all products.
+<strong>Flat tax rate</strong> Apply a flat tax rate to the selected or all products.
  
-<strong>Flat shipping rate</strong> – Apply product specific shipping rates for individual products. You can also apply a flat shipping rate regardless the number of items in the Cart or a flat shipping rate for each individual item in the Cart.
+<strong>Flat shipping rate</strong> Apply product specific shipping rates for individual products. You can also apply a flat shipping rate regardless the number of items in the Cart or a flat shipping rate for each individual item in the Cart.
  
 <strong>DISCOUNTS AND COUPON CODE</strong>
  
@@ -54,7 +55,6 @@ Apply discount based on total cart amount.
 	<li>Support multiple currencies</li>
 	<li>Target specific countries or all countries</li>
 </ul>
-&nbsp;
 
 <strong>PAYMENT OPTIONS</strong>
 
@@ -69,7 +69,6 @@ PayPal Standard
 	<li>Tax and shipping cost on checkout page.</li>
 	<li>Customizable checkout page.</li>
 </ul>
-&nbsp;
 
 <strong>100% CUSTOMIZABLE </strong>
 <ul>
@@ -78,7 +77,6 @@ PayPal Standard
 	<li>Customizable Email.</li>
 	<li>Custom button option for individual products.</li>
 </ul>
-&nbsp;
 
 <strong>Testing and Debugging </strong>
 
