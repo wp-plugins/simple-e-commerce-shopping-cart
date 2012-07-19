@@ -80,7 +80,14 @@
 #viewCartTableNav img {
   border: none !important;
 }
-
+#viewCartTable input[type="submit"] 
+{
+	background-image:none !important;
+	box-shadow:none !important;
+	text-shadow:none !important;
+	width:auto !important;
+	border-radius:0 !important;
+}
 #continueShopping {
   border: none;
 }
