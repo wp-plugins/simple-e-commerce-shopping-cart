@@ -230,32 +230,34 @@ Category:
 		if($item_count>0 )
 		{
 			$page_count = intval(ceil($item_count/$page_size));
-			if($page_count<2) return;
-			echo '<ul class="pager">';
-			for($i=0;$i<$page_count;$i++)
+			if($page_count>1)
 			{
-				echo '<li>';
-				if($i==$page_index)
+				echo '<ul class="pager">';
+				for($i=0;$i<$page_count;$i++)
 				{
-					echo '<a class="current">'.($i+1).'</a>';
-				}
-				else
-				{ 
-					$storePage = get_page_by_path('store'); 
-					$url = get_permalink($storePage->ID);
-					if(strpos($url, '?')) 
+					echo '<li>';
+					if($i==$page_index)
 					{
-					 	$substring_index =  strpos($url, '?') -1;
-						$url=substr($url,0,$substring_index+1);
+						echo '<a class="current">'.($i+1).'</a>';
 					}
+					else
+					{ 
+						$storePage = get_page_by_path('store'); 
+						$url = get_permalink($storePage->ID);
+						if(strpos($url, '?')) 
+						{
+							$substring_index =  strpos($url, '?') -1;
+							$url=substr($url,0,$substring_index+1);
+						}
 					 
-					$url = $url. queryString('index',$i);
+						$url = $url. queryString('index',$i);
 				 
-					echo '<a href="'.$url.'" class="link">'.($i+1).'</a>';
+						echo '<a href="'.$url.'" class="link">'.($i+1).'</a>';
+					}
+					echo '</li>';
 				}
-				echo '</li>';
+				echo '</ul>';
 			}
-			echo '</ul>';
 		}
 		
 	
@@ -362,34 +364,35 @@ Category:
 		if($item_count>0 )
 		{
 			$page_count = intval(ceil($item_count/$page_size));
-			if($page_count<2) return;
-			echo '<ul class="pager">';
-			for($i=0;$i<$page_count;$i++)
+			if($page_count>1)
 			{
-				echo '<li>';
-				if($i==$page_index)
+				echo '<ul class="pager">';
+				for($i=0;$i<$page_count;$i++)
 				{
-					echo '<a class="current">'.($i+1).'</a>';
-				}
-				else
-				{ 
-					$storePage = get_page_by_path('store'); 
-					$url = get_permalink($storePage->ID);
-					if(strpos($url, '?')) 
+					echo '<li>';
+					if($i==$page_index)
 					{
-					 	$substring_index =  strpos($url, '?') -1;
-						$url=substr($url,0,$substring_index+1);
+						echo '<a class="current">'.($i+1).'</a>';
 					}
+					else
+					{ 
+						$storePage = get_page_by_path('store'); 
+						$url = get_permalink($storePage->ID);
+						if(strpos($url, '?')) 
+						{
+							$substring_index =  strpos($url, '?') -1;
+							$url=substr($url,0,$substring_index+1);
+						}
 					 
-					$url = $url. queryString('index',$i);
+						$url = $url. queryString('index',$i);
 				 
-					echo '<a href="'.$url.'" class="link">'.($i+1).'</a>';
+						echo '<a href="'.$url.'" class="link">'.($i+1).'</a>';
+					}
+					echo '</li>';
 				}
-				echo '</li>';
+				echo '</ul>';
 			}
-			echo '</ul>';
 		}
-		
 	
 	?>
 </div>
