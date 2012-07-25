@@ -119,4 +119,7 @@ First deactivate the SimpleEcommCart plugin if you are using it
 == Screenshots ==
 
 1. Example of our shopping cart page with all options.
-
+2. Example of simple-ecommerce report page.
+3. Example of simple-ecommerce storepage list view.
+4. Example of simple-ecommerce storepage grid view.
+5. Example of simple-ecommerce placing products on post.
