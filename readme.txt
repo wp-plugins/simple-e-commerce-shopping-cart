@@ -115,3 +115,8 @@ First deactivate the SimpleEcommCart plugin if you are using it
 7. Does this plugin support multiple currencies? Yes.
 8. Is the "Add to Cart" button customizable? Yes.
 9. Will this plugin work with my existing theme? Yes (but may require some styling to make it match nicely.)
+
+== Screenshots ==
+
+1. Example of our shopping cart page with all options.
+
