@@ -92,7 +92,7 @@ There are several high quality WordPress shopping cart plugins available, but wh
 == Usage ==
 
 1. First add products to your online database( shop ) through the 'Add/Edit Products' interface.
-2. To add the 'Add to Cart' button simply add the trigger text  [bizcart_add_to_cart id="prodcutID" ]  to a post or page next to the product.
+2. To add the 'Add to Cart' button simply add the trigger text  [simpleecommcart_add_to_cart id="prodcutID" ]  to a post or page next to the product.
 
 
 == Installation ==
