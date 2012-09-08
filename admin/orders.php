@@ -1,4 +1,3 @@
-<h2>Orders</h2>
-<br/>
-<h2  style="font-weight:normal;">Sales invoice, Manual Payment and delivery status update, refund orders, customise search and export order report to CSV are available in Simple eCommerce Premium Version.    </h2>
+ 
+<h2  style="font-weight:normal;">Sales Orders are only available in  <a target="_blank" href="http://www.wpbizcart.com/">WP Bizcart</a> (Simple eCommerce premium version) </h2>
  

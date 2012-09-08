@@ -14,8 +14,9 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
 <h2>Shipping</h2>
 
 
-<div class='wrap'>
-<div id="widgets-left" style="margin-right: 50px;">
+<div class='wrap'><div class='wrap' style="width:80%;max-width:80%;float:left;"> 
+ 
+ <div id="widgets-left" style="margin-right: 5px;">
     <div id="available-widgets"> 
 		<div class="widgets-holder-wrap">
 			<div class="sidebar-name"> 
@@ -77,7 +78,13 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
   
 	
 </div>
-<br/>
+
+<div style="float:right;width:18%;max-width:18%">
+	<?php
+	 	echo SimpleEcommCartCommon::getView('admin/more.php',NULL);
+	?>
+</div>
+<div style="clear:both;"/>
 <!--<h2  style="font-weight:normal;">Shipping discounts (Free shipping) and variations, Other shipping methods such as Weight base shipping rates, table rate shipping are available in Simple eCommerce Premium Version.</h2>-->
 
 <script type='text/javascript'>

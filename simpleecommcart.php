@@ -41,7 +41,13 @@ if(!class_exists('SimpleEcommCart')) {
   define("WPURL", SimpleEcommCartCommon::getWpUrl());
   define("INFO_ICON",SIMPLEECOMMCART_URL.'/images/info.png');
   define("SHOPPING_CART_IMAGE",SIMPLEECOMMCART_URL.'/images/Shoppingcart.png');
-
+  
+  define("BIZCART_BOX_1_IMAGE",SIMPLEECOMMCART_URL.'/images/more/bizcartbox1.png');
+  define("BUG_IMAGE",SIMPLEECOMMCART_URL.'/images/more/bug.png');
+  define("HELP_IMAGE",SIMPLEECOMMCART_URL.'/images/more/help.png');
+  define("MONEY_IMAGE",SIMPLEECOMMCART_URL.'/images/more/money.png');
+  define("TABLE_IMAGE",SIMPLEECOMMCART_URL.'/images/more/table.png');
+  
   if(SIMPLEECOMMCART_PRO) {
     require_once(SIMPLEECOMMCART_PATH. "/advanced/models/SimpleEcommCartProCommon.php");
   }

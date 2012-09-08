@@ -184,11 +184,11 @@ elseif(isset($_GET['task']) && $_GET['task'] == 'deleteVariation' && isset($_GET
 
 
 <h2>Add/Edit Products</h2>
-
+<div class='wrap' style="width:80%;max-width:80%;float:left;"> 
 <form action="" method="post" enctype="multipart/form-data">
   <input type="hidden" name="simpleecommcart-action" value="save product" />
   <input type="hidden" name="product[id]" value="<?php echo $product->id ?>" />
-  <div id="widgets-left" style="margin-right: 50px;">
+  <div id="widgets-left" style="margin-right: 5px;">
     <div id="available-widgets">
 
 	 <div class="widgets-holder-wrap">
@@ -643,7 +643,8 @@ elseif(isset($_GET['task']) && $_GET['task'] == 'deleteVariation' && isset($_GET
   </div>
 
 </form>
-  
+
+
 <?php
   $product = new SimpleEcommCartProduct();
   $products = $product->getNonSubscriptionProducts();
@@ -783,7 +784,13 @@ elseif(isset($_GET['task']) && $_GET['task'] == 'deleteVariation' && isset($_GET
 </table>
 <?php endif; ?>
 
-
+</div>
+<div style="float:right;width:18%;max-width:18%">
+	<?php
+	 	echo SimpleEcommCartCommon::getView('admin/more.php',NULL);
+	?>
+</div>
+<div style="clear:both;"/>
 <script type='text/javascript'>
   jQuery.noConflict();
   jQuery(document).ready(function($) {
