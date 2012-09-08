@@ -47,7 +47,7 @@ elseif(isset($_GET['task']) && $_GET['task'] == 'delete' && isset($_GET['id']) &
 <?php endif; ?>
 
 <h2>Coupons</h2>
-<div class='wrap'> 
+<div class='wrap' style="width:80%;max-width:80%;float:left;"> 
 
 
 <form action="" method="post">
@@ -61,7 +61,7 @@ elseif(isset($_GET['task']) && $_GET['task'] == 'delete' && isset($_GET['id']) &
     <input type='hidden' name='simpleecommcart-action' value='save promotion' />
     <input type='hidden' name='promo[id]' value='<?php echo $promo->id ?>' />
     
-    <div id="widgets-left" style="margin-right: 50px;">
+    <div id="widgets-left" style="margin-right: 5px;">
     	<div id="available-widgets">
      		<div class="widgets-holder-wrap">
         		<div class="sidebar-name">
@@ -282,7 +282,13 @@ elseif(isset($_GET['task']) && $_GET['task'] == 'delete' && isset($_GET['id']) &
   </table>
   <?php endif; ?>
 </div>
-  
+<div style="float:right;width:18%;max-width:18%">
+	<?php
+	 	echo SimpleEcommCartCommon::getView('admin/more.php',NULL);
+	?>
+</div>
+<div style="clear:both;"/>
+
 <script type="text/javascript" charset="utf-8">
 /* <![CDATA[ */
 

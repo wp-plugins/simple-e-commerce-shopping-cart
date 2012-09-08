@@ -13,8 +13,8 @@ $tax_settings = unserialize(SimpleEcommCartSetting::getValue('tax_settings'));
 
 <h2>Calculate Tax</h2> 
  
- <div class='wrap'> 
-	<div id="widgets-left" style="margin-right: 50px;">
+<div class='wrap' style="width:80%;max-width:80%;float:left;"> 
+	<div id="widgets-left" style="margin-right: 5px;">
 	    <div id="available-widgets">
 			<div class="widgets-holder-wrap">
 				<div class="sidebar-name"> 
@@ -76,4 +76,10 @@ $tax_settings = unserialize(SimpleEcommCartSetting::getValue('tax_settings'));
 		</div>
 	</div>
 </div> 
+<div style="float:right;width:18%;max-width:18%">
+	<?php
+	 	echo SimpleEcommCartCommon::getView('admin/more.php',NULL);
+	?>
+</div>
+<div style="clear:both;"/>
 <!--<h2  style="font-weight:normal;">Individual Product Specific tax rates, Tax rates by Country and States, and other tax conditions such as Charge tax on shipping, Apply tax on Shipping or Billing address are available in Simple eCommerce Premium Version</h2>-->

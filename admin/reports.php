@@ -79,8 +79,8 @@
 	}
 ?>
 <h2>Reports</h2>
-<div class='wrap'> 
-<div id="widgets-left" style="margin-right: 50px;">
+<div class='wrap' style="width:80%;max-width:80%;float:left;"> 
+<div id="widgets-left" style="margin-right: 5px;">
     <div id="available-widgets">
 			
 		<div class="widgets-holder-wrap">
@@ -90,7 +90,7 @@
        		<div class="widget-holder"> 
 			<form class='phorm' action="" method="post">
     			 	<input type='hidden' name='simpleecommcart-task' value='general sales'/> 
-				 	<table  style="width:850px;">
+				 	<table  style="width:100%;">
 					 	<tr>
 							<th>
 								<span>Start Date</span>
@@ -465,4 +465,11 @@
 		</div>
 	</div>
 </div>	
-</div> 
+</div>
+<div style="float:right;width:18%;max-width:18%">
+	<?php
+	 	echo SimpleEcommCartCommon::getView('admin/more.php',NULL);
+	?>
+</div>
+<div style="clear:both;"/>
+ 

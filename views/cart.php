@@ -632,10 +632,33 @@ if(count($items)): ?>
         <?php endif; ?>
 	</div>
       <div id="checkoutShopping" style="padding-right:10px;"> 
+	  	<select name="checkout_select" id="checkout_select"> 
+			 <?php 
+			 echo 'use_authorize_checkout:'.SimpleEcommCartSetting::getValue('use_authorize_checkout');
+			 	 
+				if(SimpleEcommCartSetting::getValue('use_paypal_standard_checkout') == 'on')
+				{
+					?>
+						<option value="paypalCheckout">Paypal Checkout</option>
+					<?php
+				}
+				/*if(SimpleEcommCartSetting::getValue('use_authorize_checkout') == 'on')
+				{
+					?>
+						<option value="authCheckout">Authorize.NET Checkout</option>
+					<?php
+				}*/
+				 
+			 ?>
+			
+			
+			
+			
+		</select>
         <?php if($checkoutImg): ?>
           <a id="SimpleEcommCartCheckoutButton" href='<?php echo get_permalink($checkoutPage->ID) ?>'><img src='<?php echo $checkoutImg ?>' /></a>
         <?php else: ?>
-          <a id="SimpleEcommCartCheckoutButton" href='<?php echo get_permalink($checkoutPage->ID) ?>' class="SimpleEcommCartButtonPrimary" title="Continue to Checkout"><?php _e( 'PROCEED TO PAYPAL CHECKOUT' , 'simpleecommcart' ); ?></a>
+          <a id="SimpleEcommCartCheckoutButton" href='<?php echo get_permalink($checkoutPage->ID) ?>' class="SimpleEcommCartButtonPrimary" title="Continue to Checkout"><?php _e( 'PROCEED TO SECURE CHECKOUT' , 'simpleecommcart' ); ?></a>
         <?php endif; ?>
     	</div>
     <?php else: ?>
@@ -718,7 +741,12 @@ if(count($items)): ?>
 			alert('You have to agree the Terms & Conditions');
 			return false;
 		}
-	}); 
+	});
+	populateCheckoutButtonURL();
+	 
+	$jq('#checkout_select').change(function(){ 
+		populateCheckoutButtonURL();
+	});
   });
   function selectState()
   {
@@ -792,6 +820,29 @@ if(count($items)): ?>
 		$jq('#billing_state_canada').hide();
 	}
   }
-  
+  function populateCheckoutButtonURL()
+  {
+  	//
+  	var selected = $jq('#checkout_select').val();
+	var url=$jq('#SimpleEcommCartCheckoutButton').attr('href');
+	
+	var index = url.indexOf('checkout_select');
+	if(index>-1)
+	{
+		//update
+		url=url.substring(0,index - 1);
+	}
+	
+	var index_of_question_mark=url.indexOf('?');
+	if(index_of_question_mark > -1){
+		url+='&checkout_select='+selected;
+	}
+	else
+	{
+		url+='?checkout_select='+selected;
+	}
+	
+	$jq('#SimpleEcommCartCheckoutButton').attr('href',url);
+  }
 /* ]]> */
 </script>

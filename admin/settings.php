@@ -109,8 +109,8 @@ else {
 <h2><?php _e( 'Settings' , 'simpleecommcart' ); ?></h2>
 
 <div id="saveResult"></div>
-
-<div id="widgets-left" style="margin-right: 50px;">
+<div class='wrap' style="width:80%;max-width:80%;float:left;"> 
+<div id="widgets-left" style="margin-right: 5px;">
   <div id="available-widgets">
 
 	<!-- General Settings -->
@@ -757,7 +757,13 @@ else {
 	
   </div>
 </div>
-
+</div>
+<div style="float:right;width:18%;max-width:18%">
+	<?php
+	 	echo SimpleEcommCartCommon::getView('admin/more.php',NULL);
+	?>
+</div>
+<div style="clear:both;"/>
  
 
 <script type='text/javascript'>

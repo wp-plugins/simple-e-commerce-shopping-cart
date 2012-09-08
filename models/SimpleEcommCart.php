@@ -500,12 +500,12 @@ Thanks";
 	
     add_submenu_page('simpleecommcart_admin', __('Add/Edit Products', 'simpleecommcart'), __('Add/Edit Products', 'simpleecommcart'), $pageRoles['products'], 'simpleecommcart-products', array('SimpleEcommCartAdmin', 'productsPage'));
    /* add_submenu_page('simpleecommcart_admin', __('PayPal Subscriptions', 'simpleecommcart'), __('PayPal Subscriptions', 'simpleecommcart'), $pageRoles['paypal-subscriptions'], 'simpleecommcart-paypal-subscriptions', array('SimpleEcommCartAdmin', 'paypalSubscriptions'));*/
-/*    add_submenu_page('simpleecommcart_admin', __('Inventory', 'simpleecommcart'), __('Inventory', 'simpleecommcart'), $pageRoles['inventory'], 'simpleecommcart-inventory', array('SimpleEcommCartAdmin', 'inventoryPage'));*/
+     add_submenu_page('simpleecommcart_admin', __('Inventory', 'simpleecommcart'), __('Inventory', 'simpleecommcart'), $pageRoles['inventory'], 'simpleecommcart-inventory', array('SimpleEcommCartAdmin', 'inventoryPage')); 
     add_submenu_page('simpleecommcart_admin', __('Coupons', 'simpleecommcart'), __('Coupons', 'simpleecommcart'), $pageRoles['promotions'], 'simpleecommcart-promotions', array('SimpleEcommCartAdmin', 'promotionsPage'));
 	add_submenu_page('simpleecommcart_admin', __('Tax', 'simpleecommcart'), __('Tax', 'simpleecommcart'), $pageRoles['tax'], 'simpleecommcart-tax', array('SimpleEcommCartAdmin', 'taxPage'));
     add_submenu_page('simpleecommcart_admin', __('Shipping', 'simpleecommcart'), __('Shipping', 'simpleecommcart'), $pageRoles['shipping'], 'simpleecommcart-shipping', array('SimpleEcommCartAdmin', 'shippingPage'));
     
-/*   add_submenu_page('simpleecommcart_admin', __('Orders', 'simpleecommcart'), __('Orders', 'simpleecommcart'), $pageRoles['orders'], 'simpleecommcart-orders', array('SimpleEcommCartAdmin', 'ordersPage'));*/
+   add_submenu_page('simpleecommcart_admin', __('Orders', 'simpleecommcart'), __('Orders', 'simpleecommcart'), $pageRoles['orders'], 'simpleecommcart-orders', array('SimpleEcommCartAdmin', 'ordersPage'));
   /*  add_submenu_page('simpleecommcart_admin', __('Accounts', 'simpleecommcart'), __('Accounts', 'simpleecommcart'), $pageRoles['accounts'], 'simpleecommcart-accounts', array('SimpleEcommCartAdmin', 'accountsPage'));*/
 	
 	add_submenu_page('simpleecommcart_admin', __('Settings', 'simpleecommcart'), __('Settings', 'simpleecommcart'), $pageRoles['settings'], 'simpleecommcart-settings', array('SimpleEcommCartAdmin', 'settingsPage'));
