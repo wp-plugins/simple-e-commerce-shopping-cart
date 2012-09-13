@@ -152,22 +152,8 @@ class SimpleEcommCartShortcodeManager {
   }
 
  public function checkoutSelect($attrs)
- {
- 	if($_SERVER['REQUEST_METHOD'] == "GET" && isset($_GET['checkout_select']))
-	{ 
-		$checkout_select = $_GET['checkout_select'];
-		SimpleEcommCartSession::set('checkout_select',$checkout_select);
-	}
-	
-	if(SimpleEcommCartSession::get('checkout_select')=='authCheckout')
-	{
-		return $this->authCheckout($attrs); 
-	} 
-	else if(SimpleEcommCartSession::get('checkout_select')=='paypalCheckout')
-	{
-		return $this->paypalCheckout($attrs); 
-	}
-	 
+ { 
+	return $this->paypalCheckout($attrs);  
  }
  public function termsAndCondition($attrs)
  {
