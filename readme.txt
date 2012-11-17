@@ -1,5 +1,5 @@
 === WordPress Simple Ecommerce Shopping Cart Plugin- Sell products through Paypal ===
-Contributors: Niaz Showket
+Contributors: Niaz Showket,wpbizcart@gmail.com
 Donate link: http://www.wpbizcart.com
 Tags: Wordpress shopping cart, wordpress shopping cart plugin, shopping cart, cart, checkout, shop, store, wordpress ecommerce, ecommerce plugin, e-commerce plugin, digital downloads, paypal, paypal shopping cart, paypal cart, online shop, online store
 Requires at least: 1.0
