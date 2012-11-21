@@ -43,6 +43,8 @@ if(!class_exists('SimpleEcommCart')) {
   define("SHOPPING_CART_IMAGE",SIMPLEECOMMCART_URL.'/images/Shoppingcart.png');
   
   define("BIZCART_BOX_1_IMAGE",SIMPLEECOMMCART_URL.'/images/more/bizcartbox1.png');
+  define("PHOTOBIZCART_BOX_1_IMAGE",SIMPLEECOMMCART_URL.'/images/more/photobizcartbox1.png');
+  
   define("BUG_IMAGE",SIMPLEECOMMCART_URL.'/images/more/bug.png');
   define("HELP_IMAGE",SIMPLEECOMMCART_URL.'/images/more/help.png');
   define("MONEY_IMAGE",SIMPLEECOMMCART_URL.'/images/more/money.png');
