@@ -1,0 +1,586 @@
+
+#viewCartTable {
+  margin: 12px 0px 12px 0px; 
+  width: 100%;
+  clear: both;
+  border-collapse: collapse;
+}
+#viewCartTable th {
+	  border-bottom: 1px solid #ddd;
+	}
+#viewCartTable td,
+#viewCartTable th {
+  padding: 5px 5px 5px 5px;
+  margin: 0px;
+  vertical-align: middle;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+#viewCartTable th {
+  background-color: #FFFFFF;
+  vertical-align: middle;
+}
+
+#viewCartTable td.noBorder, #viewCartTable tr.subtotal, #viewCartTable tr.subtotal td, #viewCartTable tr.shipping td, #viewCartTable tr.tax td, #viewCartTable tr.total td, .noBorder td {
+	border-top: none !important;
+  border:none !important;
+}
+.alignRight {
+	text-align: right !important;
+	}
+.alignLeft {text-align: left !important;}
+.strong {
+	font-weight: bold !important;
+	}
+#viewCartTableNav {
+  margin: 0px;
+  width: 100%;
+  border: none !important;
+  display: table;
+}
+
+
+#continueShopping, #checkoutShopping {
+	display: inline-block;
+	}
+#checkoutShopping {
+	float: right;
+	}
+#SimpleEcommCartCheckoutReplacementText {
+	width: 50%;
+	margin: 10px auto;
+	font-weight: bold;
+	}
+.SimpleEcommCartTermsOfServiceWrapper {
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid #cccccc;
+	background-color: #efefef;
+	}
+	.SimpleEcommCartTermsOfServiceWrapper div {
+	margin: 10px;
+	}
+	.SimpleEcommCartTermsOfServiceWrapper .SimpleEcommCartAcceptTermsButton {
+	display: block;
+	width: 200px;
+	margin: 20px auto;
+	}
+	.SimpleEcommCartTermsTitle {
+		font-style: italic;
+	}
+#viewCartTable a, 
+#viewCartTable tbody,
+#viewCartTable img,
+#viewCartTableNav a, 
+#viewCartTableNav tr,
+#viewCartTableNav th,
+#viewCartTableNav td,
+#viewCartTableNav tbody,
+#viewCartTableNav img {
+  border: none !important;
+}
+#viewCartTable input[type="submit"] 
+{
+	background-image:none !important;
+	box-shadow:none !important;
+	text-shadow:none !important;
+	width:auto !important;
+	border-radius:0 !important;
+}
+#continueShopping {
+  border: none;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+#paypalCheckout {
+  width: 145px; 
+}
+
+.SimpleEcommCartError {
+  background-color: #FEE;
+  border: 1px solid red;
+  width: 500px;
+  padding:15px;
+  margin: 15px 0px;
+  clear: both;
+}
+
+#SimpleEcommCartForgotPassword { display: none; }
+
+#SimpleEcommCartReceiptExpectation { margin-top: 7px; font-style: italic;}
+
+.SimpleEcommCartNewsletterList .SimpleEcommCartCheckboxList, #SimpleEcommCartExpressReview ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+
+.SimpleEcommCartCartButton {
+  /* text-align: center; */
+  border: none !important;
+}
+
+.SimpleEcommCartPrice {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 3px 7px 4px 0px;
+  display: inline-block;
+}
+
+.SimpleEcommCartCustomFieldDesc {
+  color: #777;
+  font-style: italic;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.SimpleEcommCartCustomTextField {
+  width: 225px;
+}
+
+.SimpleEcommCartCustomTextarea {
+  width: 225px;
+  height: 90px;
+}
+
+.SimpleEcommCartTableMed {
+  width: auto;
+  border: 0px;
+  border-collapse: collapse;
+}
+
+.SimpleEcommCartTableMed th,
+.SimpleEcommCartTableMed td {
+  margin: 0px;
+  text-align: left;
+  border: none;
+  padding: 3px 7px;
+}
+
+.SimpleEcommCartTableMed td {
+  border-top: 1px solid #CFCFCF;
+}
+
+.SimpleEcommCartTableMed td.canceled {
+  color: #858585;
+}
+
+.SimpleEcommCartNote {
+  color: #888;
+}
+
+.SimpleEcommCartGravityFormDisplay {
+  display: block;
+}
+
+.SimpleEcommCartRemoveFormLink {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.SimpleEcommCartProRequired {
+  font-weight:normal; 
+  color:#B33; 
+  font-size:11px; 
+  background-color: #FEE;
+  border: 2px solid #B33;
+  padding: 3px;
+  text-align: center;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.SimpleEcommCartProRequired a {
+  color: #933;
+  font-weight: bold;
+}
+
+.SimpleEcommCartUnavailable {
+  position: fixed;
+  border: 1px solid #70091A;
+  
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  
+  -moz-box-shadow: 7px 7px 15px #CCCCCC;
+  -webkit-box-shadow: 7px 7px 15px #CCCCCC;
+  box-shadow: 7px 7px 15px #CCCCCC;
+  
+  background-color: #EEEEEE;
+  padding: 5px 20px;
+  margin: 0px;
+  top: 25%;
+  left: 32%;
+  width: 400px;
+  height: auto;
+  color: black;
+  z-index: 100;
+}
+
+.SimpleEcommCartUnavailable h2 {
+  line-height: 1.5em !important;
+}
+
+.SimpleEcommCartUnavailable p {
+  line-height: 1.2em !important;
+}
+
+.SimpleEcommCartOutOfStock {
+  color: #70091A;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.SimpleEcommCartAjaxWarning {
+  color: #C00;
+  border: 1px solid #C55;
+  background-color: #EEE;
+  width: 200px;
+  padding: 7px;
+}
+
+.inventoryCountTableModal {
+  margin: 5px 0px;
+  padding: 10px;
+  width: 100%;
+  border-collapse:collapse;
+  color: black;
+}
+
+.inventoryCountTableModal td {
+  padding: 3px 5px;
+  border-bottom: 1px solid #CCC;
+}
+
+/* SimpleEcommCart Widget CSS */
+
+#SimpleEcommCartWidgetCartLink {
+  display: block;
+}
+
+/* SimpleEcommCart Button CSS */
+
+
+  .SimpleEcommCartButtonSecondary,  
+#content .SimpleEcommCartButtonSecondary, .SimpleEcommCartCartButton .purAddToCart {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 25px;
+  height: 25px;
+  padding: 0 1em;
+  border: 1px solid #4e4e4e;
+   font-weight:bold;
+  cursor: pointer;
+  background-color: #808080;
+  color: #fff !important;
+}
+.SimpleEcommCartButtonPrimary,   #content .SimpleEcommCartButtonPrimary 
+ {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 25px;
+  height: 25px;
+  padding: 0 1em;
+  border: 1px solid #b90000;
+  font-weight:bold;
+  cursor: pointer;
+  background-color: #cc0000;
+  color: #fff !important;
+}
+.SimpleEcommCartButtonSecondary {
+  background-color: #2C3538;
+}
+#SimpleEcommCartCheckoutButtonDiv .SimpleEcommCartButtonPrimary {
+	margin: 20px 30px;
+	}
+#couponCode, #updateCart {
+	display: block;
+	float: right;
+	margin: 0;
+	clear: both;
+	}
+a.SimpleEcommCartButtonPrimary, 
+a.SimpleEcommCartButtonSecondary {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* SimpleEcommCart Form CSS */
+.SimpleEcommCartSuccess,
+.SimpleEcommCartError {
+  background-color: #FEE;
+  border: 1px solid red;
+  margin: 10px 0px;
+  padding: 5px 20px;
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px;
+  color: #633;
+}
+
+.SimpleEcommCartSuccess {
+  background-color: #EFE;
+  border: 1px solid green;
+  color: #252;
+}
+
+.SimpleEcommCartSuccess h1 {
+  color: #BCB;
+}
+.SimpleEcommCartError h1 {
+  color: #CBB;
+  font-size: 1.5em;
+}
+
+.phorm2 {
+  min-width: 550px;
+  clear: both;
+}
+
+.phorm2 .errorField {
+  border: 1px solid red;
+  background-color: #FEE;
+}
+#ccInfo ul {
+    margin:0;
+}
+#ccInfo li {
+	clear: none;
+	}
+.phorm2 ul {
+  margin: 0px;
+  padding: 0px;
+}
+.phorm2 ul li {
+  list-style: none !important;
+  background-image: none;
+  margin: 0px;
+  padding: 3px 0px 4px 0px !important;
+}
+
+.phorm2 ul li label {
+  display: inline-block;
+  width: 135px;
+  text-align: right;
+  vertical-align: top;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+.phorm2 ul li input {
+	margin:0;
+	}
+.phorm2 ul li label.short {
+  width: 80px;
+}
+
+.phorm2 ul.shortLabels li label {
+  width: 80px;
+}
+
+.phorm2 ul li span.description,
+.phorm2 ul li p.description {
+  color: #858585;
+  font-style: italic;
+  margin: 0px 0px 0px 140px;
+  padding: 2px 0px 3px 0px;
+  line-height: 1.2em !important;
+}
+
+.phorm2 ul li span.description {
+  margin: 0px 0px 0px 7px;
+}
+
+.phorm2 ul.shortLabels li p.description {
+  margin-left: 90px;
+}
+
+.phorm2 .button {
+  width: 75px;
+}
+
+.phorm2 .SimpleEcommCartErrorField {
+  background-color: #FEE;
+  border: 1px solid #F75;
+  padding: 3px;
+}
+
+.phorm2 .stateField {
+  width: 25px !important;
+  margin-left: 2px;
+}
+
+.phorm2 input[type=text],
+.phorm2 input[type=password] {
+  width: 130px;
+}
+
+.phorm2 p {
+  margin-bottom: 2px !important;
+}
+
+.state_text_field {
+  display: none;
+}
+
+/* Gravity Forms Cart View Styles */
+table .entry-details {
+  width: 100%;
+}
+
+table .entry-details tbody {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+}
+
+#viewCartTable td .entry-view-field-name {
+  font-weight: bold;
+  background-color: #eee;
+  margin: 0px;
+  border: none;
+}
+
+td .entry-view-field-value {
+  padding-left: 25px !important;
+  border: none !important;
+}
+
+#ccInfo input[type=text], #accountInfo input[type=text], #accountInfo input[type=password] {
+	width: 45%;
+	}
+#ccInfo #payment-securityId {
+    width: 30px;
+}
+
+#paypalexpresscheckout {
+    clear:both;
+    float: right;
+    margin: 10px 10px 0px 0px;
+}
+#PayPalExpressCheckoutButton {
+    margin-right:7px;
+    text-align: left;
+}
+/* checkout-form.php */
+#payment-cardExpirationYear {
+    margin:0;
+}
+li .description {
+    color: #757575;
+}
+.SimpleEcommCartHidden {
+	visibility: hidden;
+}
+
+.noBottomBorder {
+	border-bottom: none;
+	}
+span.subscriptionOrMembership {
+	padding: 0px 1px 0px 10px; display: inline-block; width: 35px; background-color: transparent;
+	}
+.itemQuantity {
+	width: 35px; margin-left: 5px;
+	}
+
+.promoMessage {
+	color: red;
+	}
+
+#emptyCartMsg {
+	text-align: center;
+	}
+
+#set_shipping_zip_row th, #shipping_to_row th {
+	text-align: right;
+	}
+.haveCoupon {
+	margin-bottom: 0 !important;
+	padding: 0;
+	}
+.haveCoupon input {
+	margin-bottom: 0;
+	}
+.phorm2 h2 {
+	clear: none;
+	}
+    #billingInfo, #shippingInfo  {
+        float: left;
+        width: 51%;
+    }
+    #SimpleEcommCartExpressReview {
+		overflow: hidden;
+	}
+    #SimpleEcommCartExpressReview #shippingInfo {
+		float: none;
+		margin-left: 51%;
+		width: auto;
+	}
+	#createAccountDiv {
+		margin-top: 20px;
+	}
+    #paymentInfo, #accountInfo, #SimpleEcommCartCheckoutButtonDiv {
+        float: none;
+        width: auto;
+        margin-left: 51%;
+    }
+    /* because IE7 misbehaves */
+    *:first-child+html #billingInfo{margin:0 -1% 0 0 ;}
+    *:first-child+html #shippingInfo{clear:both;}
+    
+	#shippingAddress {
+	    display: none;
+	}
+
+/* TOS Styles */
+.SimpleEcommCartShortcodeTOS{}
+.SimpleEcommCartCartTOS{}
+.SimpleEcommCartTermsOfServiceWrapper{
+	clear:both;
+	padding:10px 0px
+}
+.SimpleEcommCartTermsTitle{}
+.SimpleEcommCartTermsText{}
+.SimpleEcommCartTermsAcceptance{}
+.SimpleEcommCartAcceptTermsButton{}
+
+/* Advanced widget styles */
+.SimpleEcommCartAdvancedWidgetCartTable {
+	width: 100%;
+	}
+.SimpleEcommCartAdvancedWidgetCartTable td, .SimpleEcommCartAdvancedWidgetCartTable th, .SimpleEcommCartAdvancedWidgetCartTable tbody {
+	border: none;
+	}
+.SimpleEcommCartAdvancedWidgetCartTable tr {
+	border-bottom: 1px solid #efefef;
+	}
+	.SimpleEcommCartAdvancedWidgetCartTable .SimpleEcommCartShippingToRow {
+		border-bottom: none;
+	}
+.SimpleEcommCartAdvancedWidgetCartTable .SimpleEcommCartSubtotalRow {
+	border: none;
+	line-height: 35px;
+	height: 35px;
+	text-align: right;
+	font-weight: bold;
+	}
+.SimpleEcommCartProductTitle, .SimpleEcommCartProductSubtotal {
+	font-weight: bold;
+	}
+.SimpleEcommCartQuanPrice {
+	display: block;
+	font-style: italic;
+	}
+.SimpleEcommCartProductSubtotalColumn, .SimpleEcommCartShippingRow td {
+	text-align: right;
+	}
+.SimpleEcommCartWidgetViewCartCheckout {
+	text-align: center;
+	}
