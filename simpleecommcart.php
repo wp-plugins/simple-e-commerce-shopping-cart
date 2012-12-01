@@ -3,8 +3,8 @@
 Plugin Name: Simple eCommerce
 Plugin URI: http://wordpress.org/
 Description: Transform your wordpress site into an online shop and sell products or services with Simple eCommerce shopping cart plugin. Plugin includes Cart Widget, shortcodes and email tags to customise your shop.
-Version: 1.1.0
-Author: Niaz Showket
+Version: 1.1.1
+Author: wpbizcart
 
 ------------------------------------------------------------------------
 SimpleEcommCart WordPress Ecommerce Plugin
