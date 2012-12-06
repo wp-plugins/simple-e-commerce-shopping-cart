@@ -11,6 +11,8 @@
 		<li>Amazon S3 Integration </li>
 		<li>Autoresponder</li>
 		<li>iPhone Application </li>
+		<li>Andriod App</li>
+		<li>Google checkout</li>
 		<li>Multiple tax & Shipping</li>
 		<li>Inventory Tracking</li>
 		<li>Order Management</li>
@@ -18,17 +20,15 @@
 		<li>and more.. </li>
 	 </ul>
 	 <div style="text-align: center;">
-		<a target="_blank" href="http://www.wpbizcart.com"> <img  src="<?php echo BIZCART_BOX_1_IMAGE?>"/>
-		 </a>
-		<h4>WPBizcart Single License $29</h4>
-		
-		<a target="_blank" class="button-primary" href="http://www.wpbizcart.com/">Buy Now
-		</a>
+
+		<h4>For Premium version: Please contact n.showket@gmail.com</h4>
+
 	</div>
 	<br/>
 	<br>
 	 <h3 style="margin:0;padding:0;">Shopping Cart For Photographers</h3>
 	 <ul style="list-style-type:disc;margin-left:20px;">
+		<li>Fully functional Shopping Cart plus special features for Photographers</li>
 		<li>Bulk Image Upload</li>
 		<li>Easy Gallery Management</li>
 		<li>Gallery Category</li>
@@ -40,12 +40,9 @@
 		<li>and more...</li> 
 	 </ul>
 	 <div style="text-align: center;">
-		<a target="_blank" href="http://www.wpbizcart.com"> <img  src="<?php echo PHOTOBIZCART_BOX_1_IMAGE?>"/>
-		 </a>
-		<h4>PhotoBizcart Single License $49</h4>
-		
-		<a target="_blank" class="button-primary" href="http://www.wpbizcart.com/">Buy Now
-		</a>
+
+		<h4>For Premium version: Please contact n.showket@gmail.com</h4>
+
 	</div>
 	<br/>
 	<br>
@@ -53,21 +50,6 @@
 	<div style="margin-right:10px;margin-top:10px; padding:5px;background-color : #FCFCFC;border:solid 1px #DFDFDF;">
 		<h3 style="margin:0;padding:0;">Get Support</h3>
 		<ul>
-			<li> 
-				<img src="<?php echo HELP_IMAGE?>"> 
-				<a target="_blank" href="http://www.wpbizcart.com/support/">Documentation</a>
-			</li>
-			<li> 
-				<img src="<?php echo TABLE_IMAGE?>"> 
-				<a target="_blank" href="http://wordpress.org/support/plugin/simple-e-commerce-shopping-cart">Support Forums</a>
-			</li>
-			<li> 
-				<img src="<?php echo BUG_IMAGE?>"> 
-				<a target="_blank" href="http://www.wpbizcart.com/contact/">Report a Bug</a>
-			</li>
-			<li> 
-				<img src="<?php echo HELP_IMAGE?>"> 
-				<a target="_blank" href="http://www.wpbizcart.com/contact/">Presale Question</a>
-			</li>
+			Please contact n.showket@gmail.com.
 		</ul>
 	</div>		
