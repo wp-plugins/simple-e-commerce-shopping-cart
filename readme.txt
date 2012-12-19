@@ -4,7 +4,7 @@ Donate link: http://www.wordpressshopcart.com
 Tags: Wordpress shopping cart, wordpress shopping cart plugin, shopping cart, cart, checkout, shop, store, wordpress ecommerce, ecommerce plugin, e-commerce plugin, digital downloads, paypal, paypal shopping cart, paypal cart, online shop, online store
 Requires at least: 1.0
 Tested up to: 3.5
-Stable tag: 2.0.0
+Stable tag: 2.1.0
 
 Simple E-Commerce Shopping Cart Plugin to sell digital/physical products from your wordpress site through PayPal.
 
