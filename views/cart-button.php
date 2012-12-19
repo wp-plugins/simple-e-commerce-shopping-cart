@@ -86,7 +86,7 @@
 		else
 		{
 			?>
-			 <br><input type='submit' value='Add To Cart' class='SimpleEcommCartSecondary purAddToCart' name='addToCart_<?php echo $id ?>' id='addToCart_<?php echo $id ?>' />
+			 <br><input type='submit' value='Add To Cart' name='addToCart_<?php echo $id ?>' id='addToCart_<?php echo $id ?>' />
 			<?php
 		}
 	  ?>
@@ -108,7 +108,7 @@
       <div id="stock_message_box_<?php echo $id ?>" class="SimpleEcommCartUnavailable" style="display: none;">
         <h2>We're Sorry</h2>
         <p id="stock_message_<?php echo $id ?>"></p>
-        <input type="button" name="close" value="Ok" id="close" class="SimpleEcommCartButtonSecondary modalClose" />
+        <input type="button" name="close" value="Ok" id="close" class="modalClose" />
       </div>
     <?php endif; ?>
 

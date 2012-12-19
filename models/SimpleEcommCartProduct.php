@@ -1190,7 +1190,7 @@ public function isTaxed() {
   public function getInventoryData()
   {
   	$sql="SELECT ikey,quantity from ".SimpleEcommCartCommon::getTableName('inventory')." ";
-    $sql = $this->_db->prepare($sql);
+    $sql = $this->_db->prepare($sql,null);
 	$data = $this->_db->get_results($sql,OBJECT_K);
 	 
 	
@@ -1207,7 +1207,7 @@ public function isTaxed() {
   public function getInventoryDataForSpecificProduct($id)
   {
   	$sql="SELECT ikey,quantity from ".SimpleEcommCartCommon::getTableName('inventory')." where product_id=".$id."";
-    $sql = $this->_db->prepare($sql);
+    $sql = $this->_db->prepare($sql,null);
 	$data = $this->_db->get_results($sql,OBJECT_K);
 	 
 	return $data;

@@ -88,7 +88,7 @@ $tinyURI = get_bloginfo('wpurl')."/wp-includes/js/tinymce";
 	  
 	  var priceDescription = jQuery("<div/>").html(prodprices[productIndex]).text();
     var price = "<p style='margin-top:2px;'><label id='priceLabel'>" + priceDescription + "</label></p>";
-	  if(jQuery("input[@name='showPrice']:checked").val()=="no"){
+	  if(jQuery("input[name='showPrice']:checked").val()=="no"){
 	    price = "";
 	  }
 	  
@@ -121,7 +121,7 @@ $tinyURI = get_bloginfo('wpurl')."/wp-includes/js/tinymce";
 	    button = "<img src='"+jQuery("#buttonImage").val()+"' title='Add to Cart' alt='SimpleEcommCart Add To Cart Button'>";
 	  } 
     
-    if($jq("input[@name='showPrice']:checked").val()=="only"){
+    if($jq("input[name='showPrice']:checked").val()=="only"){
       button= "";
     }
     
@@ -133,7 +133,7 @@ $tinyURI = get_bloginfo('wpurl')."/wp-includes/js/tinymce";
 	function insertProductCode() {
 		prod  = jQuery("#productNameSelector option:selected").val();
 
-    showPrice = $jq("input[@name='showPrice']:checked").val();
+    showPrice = $jq("input[name='showPrice']:checked").val();
     if(showPrice == 'no') {
       showPrice = 'showprice="no"';
     }
