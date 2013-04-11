@@ -1,3 +1,3 @@
  
-<h2  style="font-weight:normal;">Sales Orders are only available in  <a target="_blank" href="http://www.wordpressshopcart.com/">WP shop cart</a> (Simple eCommerce premium version) </h2>
+<h2  style="font-weight:normal;">Sales Orders are only available in  the premium version called WP shop cart. Please email n.showket@gmail.com for more details. </h2>
  
