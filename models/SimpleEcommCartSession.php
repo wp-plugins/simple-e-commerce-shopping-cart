@@ -153,6 +153,8 @@ class SimpleEcommCartSession {
    * 
    * @return string The new session id
    */
+   
+   //Set up new Cookies while adding Bag
   protected static function _newSession() {
     SimpleEcommCartCommon::log('[' . basename(__FILE__) . ' - line ' . __LINE__ . "] Creating a new session");
     $userAgent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : 'noUserAgent';
@@ -167,7 +169,8 @@ class SimpleEcommCartSession {
     self::$_data = $data;
     self::_save();
     
-    setcookie('SimpleEcommCartSID', self::$_data['session_id'], 0, '/', self::_getDomain());
+   // setcookie('SimpleEcommCartSID', self::$_data['session_id'], 0, '/', self::_getDomain()); <---Previous code.Updated by Jakir--->
+    setcookie('SimpleEcommCartSID', self::$_data['session_id'], 0, '/');
     self::_deleteExpiredSessions();
     return $data['session_id'];
   }
