@@ -169,8 +169,8 @@ class SimpleEcommCartSession {
     self::$_data = $data;
     self::_save();
 
-    setcookie('SimpleEcommCartSID', self::$_data['session_id'], 0, '/', self::_getDomain());
-   // setcookie('SimpleEcommCartSID', self::$_data['session_id'], 0, '/');
+   // setcookie('SimpleEcommCartSID', self::$_data['session_id'], 0, '/', self::_getDomain());
+    setcookie('SimpleEcommCartSID', self::$_data['session_id'], 0, '/');
     self::_deleteExpiredSessions();
     return $data['session_id'];
   }
