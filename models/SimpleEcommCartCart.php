@@ -1832,7 +1832,7 @@ class SimpleEcommCartCart {
    *   $optionResult->options
    * @return object
    */
-  protected function _processOptionInfo($optionInfo) {
+  /*protected function _processOptionInfo($optionInfo) {
     $optionInfo = trim($optionInfo);
     $priceDiff = 0;
     $options = explode('~', $optionInfo);
@@ -1861,5 +1861,38 @@ class SimpleEcommCartCart {
     $optionResult->options = implode(', ', $optionList);
     return $optionResult;
   }
-  
+*/  
+ protected function _processOptionInfo($optionInfo) {
+    $optionInfo = trim($optionInfo);
+    $priceDiff = 0;
+    $options = explode('~', $optionInfo);
+    $optionList = array();
+    foreach($options as $opt) {
+      SimpleEcommCartCommon::log('[' . basename(__FILE__) . ' - line ' . __LINE__ . "] Working with option: $opt");
+	  $pprice = '/\+\s*\\'.SIMPLEECOMMCART_CURRENCY_SYMBOL.'/';
+	  $pcurrency = '+'.SIMPLEECOMMCART_CURRENCY_SYMBOL;
+	  $mprice = '/-\s*\\'.SIMPLEECOMMCART_CURRENCY_SYMBOL.'/';
+	  $mcurrency = '-'.SIMPLEECOMMCART_CURRENCY_SYMBOL;
+      if(preg_match($pprice, $opt)) {
+        $opt = preg_replace($pprice, $pcurrency, $opt);
+        list($opt, $pd) = explode($pcurrency, $opt);
+        $optionList[] = trim($opt);
+        $priceDiff += $pd;
+      }
+      elseif(preg_match($mprice, $opt)) {
+        $opt = preg_replace($mprice, $mcurrency, $opt);
+        list($opt, $pd) = explode($mcurrency, $opt);
+        $optionList[] = trim($opt);
+        $pd = trim($pd);
+        $priceDiff -= $pd;
+      }
+      else {
+        $optionList[] = trim($opt);
+      }
+    }
+    $optionResult = new stdClass();
+    $optionResult->priceDiff = $priceDiff;
+    $optionResult->options = implode(', ', $optionList);
+    return $optionResult;
+  }
 }
