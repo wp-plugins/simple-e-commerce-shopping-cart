@@ -3,8 +3,8 @@ Contributors: Niaz Showket
 Donate link: http://smartwpplugin.com
 Tags: Wordpress shopping cart, wordpress shopping cart plugin, shopping cart, cart, checkout, shop, store, wordpress ecommerce, ecommerce plugin, e-commerce plugin, digital downloads, paypal, paypal shopping cart, paypal cart, online shop, online store
 Requires at least: 3.0
-Tested up to: 4.0.1
-Stable tag: 2.2.3
+Tested up to: 4.2.2
+Stable tag: 2.2.4
 
 Simple E-Commerce Shopping Cart Plugin to sell digital/physical products from your wordpress site through PayPal.
 
