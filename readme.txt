@@ -88,6 +88,8 @@ There are several high quality WordPress shopping cart plugins available, but wh
 
 &nbsp;
 
+<strong>Video Guide Through</strong>
+https://www.youtube.com/watch?v=-mcUIQFgamI
 
 == Usage ==
 
@@ -123,3 +125,4 @@ First deactivate the SimpleEcommCart plugin if you are using it
 3. Example of simple-ecommerce storepage list view.
 4. Example of simple-ecommerce storepage grid view.
 5. Example of simple-ecommerce placing products on post.
+
