@@ -8,11 +8,15 @@ Stable tag: 2.2.4
 
 Simple E-Commerce Shopping Cart Plugin to sell digital/physical products from your wordpress site through PayPal.
 
+
 == Description ==
 
 Turn your WordPress blog into a full blown ecommerce site and start selling online!
 Simple Ecommerce Shopping Cart plugin lets you sell tangible products, services, and digital downloads securely from your own wordpress site. The plugin is packed with features to make selling easier on the internet and allows Paypal payments.
- 
+
+<strong>Video Guide Through</strong>
+https://www.youtube.com/watch?v=-mcUIQFgamI
+
 <strong>FEATURES</strong>
  
 <strong>SELL DIGITAL DOWNLOADS/PRODUCTS</strong>
@@ -88,8 +92,7 @@ There are several high quality WordPress shopping cart plugins available, but wh
 
 &nbsp;
 
-<strong>Video Guide Through</strong>
-https://www.youtube.com/watch?v=-mcUIQFgamI
+
 
 == Usage ==
 
