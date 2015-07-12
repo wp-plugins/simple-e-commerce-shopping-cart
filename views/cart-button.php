@@ -117,12 +117,12 @@
 <?php endif; ?>
  
 <?php if($trackInventory): ?>
-
+<!--
   <?php if(is_user_logged_in()): ?>
     <div class="SimpleEcommCartAjaxWarning">Inventory tracking will not work because your site has javascript errors. 
       <a href="http://simpleecommcartbasic.wordpress.com//jquery-errors/">Possible solutions</a></div>
   <?php endif; ?>
-
+-->
 <script type="text/javascript">
 /* <![CDATA[ */
 
