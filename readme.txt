@@ -15,7 +15,14 @@ Turn your WordPress blog into a full blown ecommerce site and start selling onli
 Simple Ecommerce Shopping Cart plugin lets you sell tangible products, services, and digital downloads securely from your own wordpress site. The plugin is packed with features to make selling easier on the internet and allows Paypal payments.
 
 <strong>Video Guide Through</strong>
-https://youtu.be/vwlvK7mOTX4
+
+https://www.youtube.com/watch?v=vwlvK7mOTX4
+
+<strong>Demo Site</strong>
+
+This website contains a demo store page and shows how your website may look like. It also show cases the functionality of the plugin.
+
+<a href="http://smartwpplugin.info/"><i>Sample Page</i></a>
 
 <strong>FEATURES</strong>
  
